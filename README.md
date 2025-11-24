@@ -3,7 +3,7 @@
 > **Where Careers Meet Insight** - A unified platform that helps job seekers discover opportunities and instantly access company intelligence through real-time news aggregation.
 
 ![Status](https://img.shields.io/badge/Status-Deployed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-blue)
+
 ![Version](https://img.shields.io/badge/Version-1.0-blue)
 
 ---
@@ -507,8 +507,9 @@ For issues, questions, or feedback:
 - **Live Application**: http://www.bigwi.tech
 - **GitHub Repository**: https://github.com/yourusername/workly
 - **API Documentation**: [JSearch](https://rapidapi.com/laimoon/api/jsearch), [Real-Time News](https://rapidapi.com/belchiorarkad/api/real-time-news-data)
-- **Demo Video**: [YouTube Link - Add after uploading]
+- **Demo Video**: (https://youtu.be/YHt3W2CZKVk)
 
 ---
+
 
 **Made with ❤️ by Cedric BIGWI HINDURA - 2025**

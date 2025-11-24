@@ -1,0 +1,36 @@
+# --- Environment variables ---
+.env
+.env.*
+
+
+
+# --- Python caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environment ---
+venv/
+.env/          
+
+# --- Sensitive keys ---
+*.pem
+*.key
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Editor / IDE files ---
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log
+
+# --- Temporary files ---
+*.tmp
+*.temp
+*.bak
+*~
+

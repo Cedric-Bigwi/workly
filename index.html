@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/svg+xml" href="static/icons/workly-icon.svg">
+        <title>Jobs & News</title>
+        <link rel="stylesheet" href="static/css/styles.css">
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-content">
+                <p class="logo"><img src="static/icons/logo.png" alt="workly logo"> Workly</p>
+                <p class="tagline">Where Careers Meet Insight</p>
+            </div>
+        </nav>
+
+        <!-- Main Container -->
+        <main class="container">
+
+            <!-- Search Panel -->
+            <section class="search-panel">
+                
+                <h2>🔍 Find your next job, then know the company</h2>
+                <div class="search-row">
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        class="search-input" 
+                        placeholder="e.g., 'Python developer in remote', 'React engineer NYC', 'data scientist min 100k'"
+                        autofocus
+                    />
+                    <button id="searchBtn" class="btn-search">Search</button>
+                </div>
+
+                <p class="search-hint">💡 Use natural language</p>
+                
+                <div id="errorMessage" class="error-message" style="display: none;"></div>
+            </section>
+
+            <!-- Content Area -->
+            <section class="content-grid">
+
+                <!-- Jobs Section -->
+                <article class="section-card jobs-section">
+                    <div class="section-header">
+                        <h3>💼 Job Listings</h3>
+                    </div>
+                    <div id="jobsContainer" class="jobs-container"></div>
+                </article>
+
+                <!-- News Section -->
+                <aside class="section-card news-section">
+                    <div class="section-header">
+                        <h3>📰 Company News </h3>
+                    </div>
+                    <div id="newsContainer" class="news-container"></div>
+                </aside>
+            </section>
+        </main>
+
+        <!-- Floating Theme Toggle Button -->
+        <button id="themeToggle" class="floating-btn" title="Toggle dark mode">🌙</button>
+
+        <!-- Floating logo Button -->
+        <button id="waveButton" class="wave-button" title="Workly Menu"><span class="wave-icon">⚙️</span></button>
+
+        <!-- Floating Menu -->
+        <section id="waveMenu" class="wave-menu">
+            <div class="wave-menu-content">
+                <p class="dev-message">🚧 App still in development!</p>
+                <p class="dev-text">More functionality to come soon.<br><br> Have suggestions or found a bug?</p>
+                <a href="mailto:c.bigwihin@alustudent.com?subject=Jobs+and+News+App,+Feedback&body=Hi%20there!%0A%0AI%20have%20feedback%20or%20a%20suggestion%20for%20your%20app%3A%0A%0A" class="email-link">
+                    📧 c.bigwinhin@alustudent.com
+                </a>
+                <p class="email-hint">Click to send an email directly</p>
+            </div>
+        </section>
+
+        <!-- Job Detail Modal -->
+        <section id="jobModal" class="modal">
+            <div class="modal-content">
+                <button class="modal-close" id="modalClose">×</button>
+                <div id="modalBody"></div>
+                <button class="btn-done" id="modalDone">Done</button>
+            </div>
+        </section>
+
+        <!-- Modal Overlay -->
+        <div id="modalOverlay" class="modal-overlay"></div>
+
+        <script src="static/js/app.js" type="module"></script>
+
+    </body>
+
+</html>
